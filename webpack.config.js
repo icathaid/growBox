@@ -1,4 +1,6 @@
-entry: './src/grow.js',
-output: {
-    filename: './dist/bundle.js'
-}
+module.exports = {
+    entry: './src/grow.js',
+    output: {
+        filename: './dist/bundle.js'
+    },
+};
