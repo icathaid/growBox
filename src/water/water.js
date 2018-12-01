@@ -1,3 +1,5 @@
-import { person } from '../lights/lights.js';
+function water(){
+  return console.log('water running');
+}
 
-console.log(person.name);
+export {water};
